@@ -37,6 +37,13 @@ html {
   opacity: .2;
 }
 
+@media (perfers-reduced-motion) {
+  .gear {
+    animation: none;
+  }
+}
+
+
 .gear-big {
   left: 5%;
   bottom: 3rem;
@@ -80,5 +87,6 @@ html {
   h1 {
     background-color: orange;
   }
+
 }
 /* stylelint-enable */
