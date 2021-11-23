@@ -37,12 +37,13 @@ html {
   opacity: .2;
 }
 
-@media (perfers-reduced-motion) {
+@media (prefers-reduced-motion) {
+
   .gear {
     animation: none;
   }
-}
 
+}
 
 .gear-big {
   left: 5%;
@@ -69,21 +70,28 @@ html {
 }
 
 /* stylelint-disable media-feature-name-no-unknown */
+
 @media (prefers-color-scheme: dark) {
+
   body {
     background-color: #222;
   }
+
   .banner {
-    opacity: 0.5;
+    opacity: .5;
   }
+
 }
+
 /**
 * =============
 * Write your “prefers” media queries here, between these two `stylelint` comments.
 * Unfortunately, Markbot, is a little too old to understand them. :(
 * =============
 */
+
 @media (prefers-reduced-transparency: reduce) {
+
   h1 {
     background-color: orange;
   }
